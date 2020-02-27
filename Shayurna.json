@@ -1,0 +1,96 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Shayurna",
+				"abbreviation": "SHYN",
+				"full": "Shayurna",
+				"url": "",
+				"authors": [
+					"GameSpriter"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1582832398,
+		"dateLastModified": 1582832398
+	},
+	"monster": [
+		{
+			"name": "Dire Boar",
+			"source": "Shayurna",
+			"page": 319,
+			"srd": true,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d8 + 3"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 13,
+			"dex": 11,
+			"con": 12,
+			"int": 2,
+			"wis": 9,
+			"cha": 5,
+			"passive": 9,
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 ({@damage 2d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Relentless (Recharges after a Short or Long Rest)",
+					"entries": [
+						"If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Tusk",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}11 ({@damage 3d6 + 1}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill"
+			],
+			"tokenUrl": "https://5e.tools/img/MM/Boar.png?v=1.99.1",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/62/boar.mp3",
+			"traitTags": [
+				"Charge"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflicted": [
+				"prone"
+			],
+			"uniqueId": "19b4740f55dc1ac793d3455d4a51b568"
+		}
+	]
+}
